@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{ /*box level*/
+
+            background-color: lightgrey;
+            height: 100px;
+            width: 300px;
+
+            border-width: 5px;
+            border-style: solid;
+            border-color: greenyellow;
+
+            /*No short-hand poderia usar como: border: 1opx solid greenyellow; */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /*Forma realizada sem usar "short-hand"~, eu poderia usar como: padding: 10px; */
+            
+            margin: 20px auto 40px auto;
+
+            /*Se eu quiser que a caixa tenha tamanho ajustado conforme a janela, uso "auto" nos lugares que gostaria de ter essa mudança automatica, ex: ao diminuir os lados da janela do chrome, centralizar a caixa = margin: 10px auto 58px auto*/
+                       
+
+            outline: 5px dashed salmon;
+            
+
+        }
+
+        a{ /*Inline level*/
+            border: 10px solid rgb(174, 48, 111);
+
+            padding: 10px;           
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona. </p>
+    
+</body>
+</html>
