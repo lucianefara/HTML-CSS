@@ -5,3 +5,6 @@
 
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
+
+
+<a href= "https://luciane.fara.hithub.io/HTML-CSS/exercicios/ex001/index.html" Executar o exercício 001> 
